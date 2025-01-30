@@ -46,7 +46,7 @@ app.get('/', (req, res) => {
 });
 
 app.get("/signup", (req, res) => {
-    res.render("signup"); // Fix: `res/render` → `res.render`
+    res.render("signup"); // Fix: `res/render` →  `res.render`
 });
 
 // Start the server
