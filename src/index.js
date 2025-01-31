@@ -49,6 +49,7 @@ app.get("/signup", (req, res) => {
     res.render("signup"); // Fix: `res/render` →  `res.render`
 });
 
+
 // Start the server
 const port = 5000;
 app.listen(port, () => {
